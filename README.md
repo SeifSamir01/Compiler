@@ -1,7 +1,7 @@
 # Compiler design
 
 
-# Mini C-Like Compiler (Scanner + Recursive Descent Parser)**
+# Mini C-Like Compiler (Scanner + Recursive Descent Parser)
 
 ## 📌 **Project Overview**
 
@@ -159,7 +159,7 @@ Syntax error
 # 🧐 **How to see tokens(Optional)**
 1. Run:
 ```
-scanner.py
+python scanner.py
 ```
 ---
 
