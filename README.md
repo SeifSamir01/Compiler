@@ -137,7 +137,7 @@ int main() {
 
 # 🚀 **How to Run**
 
-1. Place your C-like source code in a file, e.g., `main.c`
+1. Place `scanner.py`, `parser.py`, `main.c` in one project directory.
 2. Run:
 
 ```
@@ -155,7 +155,12 @@ or
 ```
 Syntax error
 ```
-
+---
+# 🧐 **How to see tokens(Optional)**
+1. Run:
+```
+scanner.py
+```
 ---
 
 # 📌 **Project Purpose**
