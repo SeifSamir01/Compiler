@@ -68,7 +68,7 @@ class Scanner:
                 start = i
                 i += 1
                 is_float = False
-                while i < n and (code[i].isdigit() or code[i] == '.'):
+                while i < n and (code[i].isdigit() or (code[i] == '.' and is_float == False)):
                     if code[i] == '.':
                         is_float = True
                     i += 1
@@ -105,3 +105,4 @@ if __name__ == "__main__":
 
     for t in tokens:
         print(t)
+
